@@ -1,10 +1,11 @@
 <template>
   <div>
+  <h2>Login</h2>
     <b-form @submit="onSubmit" @reset="onReset" v-if="show">
       <b-form-group id="exampleInputGroup1"
                     label="Email address:"
                     label-for="exampleInput1"
-                    description="We'll never share your email with anyone else.">
+                    description="You can trust us with your email.">
         <b-form-input id="exampleInput1"
                       type="email"
                       v-model="form.email"
@@ -61,3 +62,23 @@ export default {
   }
 }
 </script>
+<style>
+#Login{
+    margin: 20px auto;
+    max-width: 500px;
+}
+label{
+    display: block;
+    margin: 20px 0 10px;
+}
+input[type="email"], textarea{
+    display: block;
+    width: 20%;
+    padding: 8px;
+}
+input[type="password"], textarea{
+    display: block;
+    width: 20%;
+    padding: 8px;
+}
+</style>

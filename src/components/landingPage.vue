@@ -19,7 +19,7 @@
 </b-container>
 </template>
 
-<script>
+<script scoped>
     export default {
         name: 'LandingPage',
         data(){

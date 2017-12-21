@@ -5,16 +5,20 @@ import App from './App'
 import router from './router'
 
 import BootstrapVue from 'bootstrap-vue'
-import NavBar from '@/components/NavBar'
+import NavBar from '@/components/navbar'
 
+import VeeValidate from 'vee-validate';
 
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
+Vue.use(VeeValidate);
 Vue.use(BootstrapVue);
+
+
 Vue.component('navbar',NavBar);
 
-Vue.config.productionTip = false
+Vue.config.productionTip = true;
 
 /* eslint-disable no-new */
 new Vue({

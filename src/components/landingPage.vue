@@ -17,16 +17,6 @@
   </b-container>
 </template>
 
-<<<<<<< HEAD
-<script scoped>
-    export default {
-        name: 'LandingPage',
-        data(){
-            return {
-                image: '../../static/cu.jpg'
-            }
-        }
-=======
 <script>
   export default {
     name: 'LandingPage',
@@ -34,7 +24,6 @@
       return {
         image: '../../static/cu.jpg'
       }
->>>>>>> 996221d4050570e3e3db7738608f212d130bc859
     }
   }
 

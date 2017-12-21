@@ -2,10 +2,9 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import LandingPage from '@/components/landingPage'
 import LoginPage from '@/components/loginPage'
-<<<<<<< HEAD
-import LoginPage2 from '@/components/loginPage2'
-=======
->>>>>>> 996221d4050570e3e3db7738608f212d130bc859
+import UploadPage from '@/components/uploadPage'
+import UploadPage2 from '@/components/uploadPage2'
+import UploadPage3 from '@/components/uploadPage3'
 
 Vue.use(Router)
 
@@ -20,14 +19,21 @@ export default new Router({
       path: '/login',
       name: 'LoginPage',
       component: LoginPage
-<<<<<<< HEAD
     },
     {
-      path: '/login2',
-      name: 'LoginPage2',
-      component: LoginPage2
-=======
->>>>>>> 996221d4050570e3e3db7738608f212d130bc859
+      path: '/upload',
+      name: 'UploadPage',
+      component: UploadPage
+    },
+    {
+      path: '/upload2',
+      name: 'UploadPage2',
+      component: UploadPage2
+    },
+    {
+      path: '/upload2',
+      name: 'UploadPage2',
+      component: UploadPage2
     }
   ]
 })
